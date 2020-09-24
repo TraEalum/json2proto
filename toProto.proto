@@ -1,0 +1,22 @@
+message ToProto {
+	string session_id = 1 [json_name = "session_id"]; 
+	string content_type = 2 [json_name = "content_type"]; 
+	string diagnose = 3 [json_name = "diagnose"]; 
+	string advice = 4 [json_name = "advice"]; 
+	message Data {
+		string session_id = 1 [json_name = "session_id"]; 
+		string content_type = 2 [json_name = "content_type"]; 
+		string diagnose = 3 [json_name = "diagnose"]; 
+		}
+	Data data = 2 [json_name = "data"]; 
+	string data = 2 [json_name = "data"]; 
+	message Datalist {
+		message Data {
+			string session_id = 1 [json_name = "session_id"]; 
+			string content_type = 2 [json_name = "content_type"]; 
+			string diagnose = 3 [json_name = "diagnose"]; 
+			}
+		Data data = 4 [json_name = "data"]; 
+		}
+	repeated Datalist datalist = 1 [json_name = "datalist"];
+}

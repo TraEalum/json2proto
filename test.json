@@ -1,0 +1,22 @@
+{
+    "session_id":"e5278086ae8ee84621659e972f80fffe",
+        "content_type":"31",
+        "diagnose":"测试诊断",
+        "advice":"测试建议",
+        "data":{
+            "session_id":"e5278086ae8ee84621659e972f80fffe",
+            "content_type":"31",
+            "diagnose":"测试诊断",
+            "advice":"测试建议"
+        },
+        "datalist":[
+        {
+            "data":{
+                "session_id":"e5278086ae8ee84621659e972f80fffe",
+                "content_type":"31",
+                "diagnose":"测试诊断",
+                "advice":"测试建议"
+            }
+        }
+        ]
+}
